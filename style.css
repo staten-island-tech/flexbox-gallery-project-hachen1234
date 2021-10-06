@@ -5,25 +5,15 @@ body {
   margin: 0;
   padding: 0;
 }
-.parent1 {
-  border: 1px solid red;
-}
-.parent2 {
-  border: 1px solid red;
-}
-.parent3 {
-  border: 1px solid red;
-}
-.parent1 {
+
+.parent {
   font-size: 3rem;
-}
-.parent2 {
-  font-size: 3rem;
-}
-.parent3 {
-  font-size: 3rem;
+  border: 1px solid red;
 }
 
 .h1 {
   text-align: center;
+}
+.things {
+  display: flex;
 }
