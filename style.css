@@ -9,11 +9,15 @@ body {
 .parent {
   font-size: 3rem;
   border: 1px solid red;
+  text-align: center;
+  margin: 10%;
 }
 
-.h1 {
-  text-align: center;
-}
 .things {
   display: flex;
+  width: 30%;
+  flex-direction: row;
+}
+.img {
+  width: 500px;
 }
