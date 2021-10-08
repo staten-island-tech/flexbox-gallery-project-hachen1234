@@ -30,3 +30,11 @@ img {
   color: aliceblue;
   font-size: 2rem;
 }
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+  background-color: black;
+  color: aliceblue;
+}
+font-family: "Noto Sans", sans-serif;
