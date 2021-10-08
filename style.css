@@ -8,16 +8,25 @@ body {
 
 .parent {
   font-size: 3rem;
-  border: 1px solid red;
+  border: 1px solid black;
   text-align: center;
-  margin: 10%;
+  size: 5rem;
+  margin: 8rem;
+  border-radius: 2rem;
 }
 
-.things {
+.cards {
   display: flex;
-  width: 30%;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
-.img {
-  width: 500px;
+
+img {
+  width: 45rem;
+  height: 80rem;
+  border-radius: 2rem;
+}
+.cards a {
+  background-color: black;
+  color: aliceblue;
+  font-size: 2rem;
 }
