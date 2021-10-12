@@ -13,7 +13,7 @@ body,
   border: 1px solid black;
   text-align: center;
   size: 5rem;
-  margin: 8rem;
+  margin: 10rem;
   border-radius: 2rem;
   box-shadow: 10px 5px 5px gray;
 }
@@ -22,10 +22,16 @@ body,
   display: flex;
   flex-wrap: wrap;
 }
+.parent {
+  transition: all 0.3s;
+}
+.parent:hover {
+  transform: scale(1.25);
+}
 
 img {
-  width: 45rem;
-  height: 80rem;
+  width: 40rem;
+  height: 65rem;
   border-radius: 2rem;
 }
 .cards a {
