@@ -27,6 +27,7 @@ body,
 }
 .parent:hover {
   transform: scale(1.25);
+  outline: 1rem black solid;
 }
 
 img {
