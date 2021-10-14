@@ -48,8 +48,8 @@ h1 {
   color: aliceblue;
 }
 .animation {
-  height: 1rem;
-  width: 1rem;
+  height: 2rem;
+  width: 2rem;
   animation: box 5s infinite;
   position: absolute;
 }
@@ -60,18 +60,18 @@ h1 {
     background-color: blueviolet;
   }
   25% {
-    right: 5%;
-    top: 10%;
+    right: 10%;
+    top: 5%;
     background-color: orange;
   }
   50% {
-    right: 10%;
-    top: 5%;
+    right: 5%;
+    top: 10%;
     background-color: orangered;
   }
   100% {
-    right: 5%;
-    top: 5%;
+    right: 10%;
+    top: 10%;
     background-color: green;
   }
 }
