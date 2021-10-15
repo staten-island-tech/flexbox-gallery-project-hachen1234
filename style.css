@@ -22,13 +22,6 @@ body,
   display: flex;
   flex-wrap: wrap;
 }
-.parent {
-  transition: all 0.3s;
-}
-.parent:hover {
-  transform: scale(1.25);
-  outline: 1rem black solid;
-}
 
 img {
   width: 40rem;
@@ -74,4 +67,30 @@ h1 {
     top: 10%;
     background-color: green;
   }
+}
+.parent {
+  transition: all 0.3s;
+}
+.parent:hover {
+  transform: scale(1.25);
+  outline: 1rem black solid;
+}
+a:hover {
+  background-color: 499a83;
+  transition: 0.3s;
+}
+h2 {
+  background-color: 17d7bd;
+  border-radius: 2rem;
+}
+h2:hover {
+  background-color: 8626b9;
+  transition: background-color 0.5s;
+  color: F49000;
+}
+h1:hover {
+  color: E4F78C;
+}
+.cards:hover .cards :not(:hover) {
+  transform: scale(0.7);
 }
