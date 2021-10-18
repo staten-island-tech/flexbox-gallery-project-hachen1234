@@ -21,6 +21,7 @@ body,
 .cards {
   display: flex;
   flex-wrap: wrap;
+  background-color: azure;
 }
 
 img {
@@ -40,7 +41,7 @@ h1 {
   background-color: black;
   color: aliceblue;
 }
-.animation {
+.animation{
   height: 2rem;
   width: 2rem;
   animation: box 5s infinite;
@@ -68,6 +69,10 @@ h1 {
     background-color: green;
   }
 }
+#Engulfing:hover { 
+  color: red;
+}
+
 .parent {
   transition: all 0.3s;
 }
@@ -76,24 +81,36 @@ h1 {
   outline: 1rem black solid;
 }
 a:hover {
-  background-color: 499a83;
+  background-color: #499a83;
   transition: 0.3s;
 }
 h2 {
-  background-color: 17d7bd;
+  background-color: #17d7bd;
   border-radius: 2rem;
 }
 h2:hover {
-  background-color: 8626b9;
+  background-color: #8626b9;
   transition: background-color 0.5s;
-  color: F49000;
+  color: #F49000;
 }
 h1:hover {
-  color: E4F78C;
+  color: #E4F78C;
 }
 .cards:hover .parent:not(:hover) {
   transform: scale(0.9);
 }
-@media (max-width: 500px) {
-  color: 499a83;
+@media screen and (max-width: 1250px) {
+  .cards  {
+  background-color: #329dba ;
 }
+
+@media screen and (max-width: 780px) {
+  .cards  {
+    background-color: #2cb05f;
+  }
+
+  @media screen and (max-width: 600px) {
+    .cards  {
+      background-color: #bba2db ;
+    }
+
