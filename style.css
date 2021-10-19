@@ -44,10 +44,11 @@ h1 {
 .animation{
   height: 2rem;
   width: 2rem;
-  animation: box 5s infinite;
+  animation: box 4s infinite;
   position: fixed;
+  
 }
-@keyframes box {
+@keyframes box{
   0% {
     right: 5%;
     top: 5%;
@@ -63,16 +64,44 @@ h1 {
     top: 10%;
     background-color: orangered;
   }
+  75% {
+    right: 7.5%;
+    top: 7.5%;
+    background-color: aquamarine;
+  }
   100% {
     right: 10%;
     top: 10%;
     background-color: green;
   }
 }
-#Engulfing:hover { 
-  color: red;
+#card1:hover { 
+  background-color:#fcba03;
 }
-
+#card2:hover {
+  background-color: #cc772d;
+}
+#card3:hover {
+  background-color: #e3345a;
+}
+#card4:hover{
+  background-color: #d62982;
+}
+#card5:hover {
+  background-color: #5d00ff;
+}
+#card6:hover {
+background-color:#21b2c2 ; 
+}
+#card7:hover{
+  background-color:#42a16b ;
+}
+#card8:hover{
+  background-color: #b55e24;
+}
+#card9:hover{
+background-color: #c91616;
+}
 .parent {
   transition: all 0.3s;
 }
@@ -104,7 +133,7 @@ h1:hover {
   background-color: #329dba ;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 880px) {
   .cards  {
     background-color: #2cb05f;
   }
