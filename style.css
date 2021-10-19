@@ -44,11 +44,11 @@ h1 {
 .animation{
   height: 2rem;
   width: 2rem;
-  animation: box 4s infinite;
+  animation: circle 4s infinite;
   position: fixed;
   
 }
-@keyframes box{
+@keyframes circle{
   0% {
     right: 5%;
     top: 5%;
