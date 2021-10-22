@@ -13,20 +13,23 @@ body,
   border: 1px solid black;
   text-align: center;
   size: 5rem;
-  margin: 10rem;
+  margin: 10rem auto;
   border-radius: 2rem;
   box-shadow: 10px 5px 5px gray;
+
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   background-color: azure;
+  width: auto;
+  
 }
 
 img {
-  width: 40rem;
-  height: 65rem;
+  width: 40rem ;
+  height: 65rem ;
   border-radius: 2rem;
 }
 .cards a {
@@ -37,7 +40,7 @@ img {
 h1 {
   font-size: 4rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 2rem auto;
   background-color: black;
   color: aliceblue;
 }
@@ -131,15 +134,18 @@ h1:hover {
 @media screen and (max-width: 1250px) {
   .cards  {
   background-color: #329dba ;
+  margin: auto;
 }
 
 @media screen and (max-width: 880px) {
   .cards  {
     background-color: #2cb05f;
+    margin: auto;
   }
 
   @media screen and (max-width: 600px) {
     .cards  {
       background-color: #bba2db ;
+      margin: auto;
     }
 
